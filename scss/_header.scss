@@ -1,0 +1,298 @@
+// HEADER
+
+
+header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 115px;
+    max-width: 100%;
+    background: linear-gradient(0deg, #517a3a 40%, #639349 40%);
+}
+
+.logo {
+    height: 100px;
+    width: 159px;
+    background-image: url(../img/logo3.png);
+    background-repeat: no-repeat;
+    background-size: 168px;
+    margin-left: 7%;
+    margin-bottom: 0.1%;
+    z-index: 9000;
+}
+.logo-mobile{
+  display: none;
+}
+.home{
+  display: none;
+}
+.dws-menu  {
+  position: relative;
+  margin: -9.2px 2px;
+  right: 22.4%;
+  
+}
+
+ul.dws-ul{
+  display: flex;
+  padding-left: 0;
+  justify-content: center;
+}
+li.dws-li{
+  list-style: none;
+  padding: 6px 8px; 
+  border-radius: 2px;
+}
+li.dws-li a{
+  position: relative;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 12px;
+  color: #FCF3F3;
+  margin: 2px;
+}
+li.dws-li a:active{
+  color: #FCF3F3;
+}
+li.dws-li a:hover{
+  color: #FCF3F3;
+}
+li.dws-li:hover{
+ background-color: #639349;
+}
+.active-menu {
+  background-color: #639349;
+}
+
+// modal button
+
+.request {
+  display: flex;
+  position: absolute;
+  justify-content: space-around;
+  cursor: pointer;
+  height: 20px;
+  width: 120px;
+  top: 72%;
+  right: 6%;
+  border-radius: 4px;
+  background-color: #af2c22;
+}
+.request:hover {
+  background-color: #e82819;
+  box-shadow: 0 3px 6px rgba(28,15,25,0.3);
+}
+
+.request-text p {
+  position: relative;
+  margin-top: 3.5%;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #fff;
+}
+
+.request-icon i {
+  position: absolute;
+  margin-top: 1.2%;
+  margin-left: -1%;
+  font-size: 100%;
+  color: #fff;
+}
+
+.cosial-youtube{
+ position: absolute;
+ width: 30px;
+ height: 20px;
+ background-color: #fff;
+ top: 71%;
+ right: 2%;
+ border-radius: 4px;
+}
+
+.cosial-youtube i{
+  margin: -0.1px 3.5px;
+  margin-left: 3.8px;
+  font-size: 20px;
+  color: #af2c22;
+}
+
+.cosial-youtube:hover{
+  box-shadow: 0 3px 6px rgba(28,15,25,0.3);
+}
+.cosial-youtube i:hover{
+   color: #e82819;
+}
+
+
+//REQUEST MODAL
+
+#modal-request {
+  position: absolute;
+  width: 35%; 
+  background-color: #fff;
+  top: 120%;
+  right: 32%;
+  display: none; 
+  opacity: 0; 
+  z-index: 9999; 
+}
+
+.request-head {
+  width: 100%;
+  height: 115px; 
+  background-color: #46382f;
+}
+.request_close {
+  position: absolute;
+  cursor: pointer;
+  margin: -10px 90%;
+  font-size: 45px;
+  color: #af2c22;
+
+}
+.phone-icon-modal i{
+  font-size: 25px;
+  margin:2% 0 3%;
+}
+
+.request-head p {
+  margin:2% 30% 3%;
+  color: #FDFDFD;
+  font-family:  sans-serif,'Adellelight';
+
+}
+
+#modal-request p{
+  font-size: 13px;
+  font-family: sans-serif,'Adellelight';
+}
+
+.hr-line {
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #D3AD87, #D3AD87, #D3AD87);
+  background-image: -o-linear-gradient(left, #D3AD87, #D3AD87, #D3AD87);
+  background-image: linear-gradient(to right, #D3AD87, #D3AD87, #D3AD87); 
+}
+
+.phone {
+  border: 1px solid #D3AD87; //цвет рамки
+  text-indent: 0.25em;
+  width: 90%;
+  height: auto;
+  font-family: sans-serif;
+  border-radius: 5px;
+}
+#form .phone:hover {
+  border: 1px solid #D3AD87; //цвет рамки
+
+  border-radius: 5px;
+}
+.popup p {
+  font-family: sans-serif;
+  color: #BCB2A7;
+}
+
+.text {
+  border: 1px solid #D3AD87; //цвет рамки
+  text-indent: 0.5em;
+  margin-top: 10px;
+  width: 90%;
+  height: auto;
+  font-family: sans-serif;
+  line-height:40px;
+  border-radius: 5px;
+}
+
+.text:active, .text:hover, .text:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.btn{
+  position: relative;
+  width: 60px;
+  height: 35px;
+  background: #af2c22;
+  margin-left: 78%;
+  color: #fff;
+  border-radius: 3px;
+  bottom: 9px;
+}
+.btn p{
+  font-family: sans-serif;
+  font-size: 18px;
+  margin: 2px;
+ 
+}
+.btn:hover{
+   background: #af2c22;
+}
+
+.ok{
+   width: 159px;
+   height: 150px;
+
+}
+#container {
+  margin: 20px;
+  width: 400px;
+  height: 8px;
+}
+
+
+
+// MOBILE VERSION OF NAV (BURGER)
+
+.touch {
+  width: 35px;
+  height: 25px;
+  // border: 2px solid #000;
+  // border-radius: 3px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  // background: #ddd;
+  margin-bottom: 3px;
+  margin-right: 8px;
+  z-index: 500;
+
+
+}
+
+.touch-row {
+  width: 80%;
+  height: 4.5px;
+  background: #af2c22;
+ 
+}
+.touch-row:hover{
+  background-color: #e82819;
+}
+
+
+.menu-mobile{
+  display: none;
+  margin: 2px -50px -4px 3px;
+  padding: 0 2px; 
+  background-color: #af2c22;
+  border-radius: 4px;
+}
+
+.menu-mobile:hover{
+  background-color: #e82819;
+  box-shadow: 0 3px 6px rgba(28,15,25,0.3);
+
+}
+.menu-mobile p{
+  font-family: sans-serif;
+  font-size: 10px;
+  padding: 3px 8px;
+  margin: 0 8px;
+  color: #fff;
+}

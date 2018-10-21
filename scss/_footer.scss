@@ -1,0 +1,63 @@
+// FOOTER
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 220px;
+    background-color: #46382f;
+    
+}
+
+.logo_footer{
+	height: 80px;
+    width: 80px;
+    padding: 8px 10px;
+   // background-image: url(../img/years_30.png);
+    background-repeat: no-repeat;
+    background-size: 95%;
+    margin-left: 4.5%;
+}
+
+.inscription1{
+    padding: 10px;
+    margin: 2px 5px;
+    
+}
+.inscription1 p{
+    font-family: sans-serif, 'Adellelight';
+    color: #808080;
+   
+    font-size: 14px;
+    text-align: justify;
+   
+}
+.max p{
+        font-size: 14px;
+    }
+
+.inscription2{
+    padding: 10px;
+    margin: 2px 95px; 
+    margin-right: 20%;
+    
+}
+
+.inscription2 p{
+    font-family: sans-serif, 'Adellelight';
+    color: #808080;
+    font-size: 14px;
+    padding: 0 10px;
+    text-align: justify;
+}
+
+
+
+.line_down_footer{
+    display: none;
+    width: 80%;
+}
+
+.logo_footer_mobile{
+    display: none;
+}

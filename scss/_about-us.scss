@@ -1,0 +1,51 @@
+@font-face {
+  src: url('../fonts/Adelle/Adelle_light.otf');
+  font-family: 'Adellelight';
+}
+
+.slogan h1{
+	font-family: 'Adellelight', sans-serif;
+    text-transform: uppercase;
+    font-size: 21px;
+    color: #663333;
+    text-align: center;
+}
+p{
+	font-family: sans-serif,'Adellelight';
+	text-align: center;
+}
+
+.text-about_us h4 {
+	font-family: 'Adellelight', sans-serif;
+	text-align: center;
+    margin:10px;
+
+}
+
+.text-about_us-two p {
+	text-align: justify;
+	text-indent: 1.5em;
+	margin:10px 35px;
+}
+
+.maps iframe {
+	margin-right: 5px;
+	margin-left: 5px;
+	width: 99%;
+	height: 450px
+
+
+}
+
+.address p{
+	text-align: center;
+	padding:8px 20px;
+	font-size: 15px;
+}
+
+.ql-container.ql-snow {
+    margin-right: 35px;
+    margin-left: 35px;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+}

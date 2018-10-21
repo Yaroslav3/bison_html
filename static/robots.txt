@@ -1,0 +1,8 @@
+Host: http://www.pristinebison.com/
+
+User-Agent: *
+
+
+Allow: /
+
+Sitemap: http://www.pristinebison.com/sitemap.xml

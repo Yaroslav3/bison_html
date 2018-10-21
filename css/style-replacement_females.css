@@ -1,0 +1,718 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  height: 115px;
+  max-width: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(40%, #517a3a), color-stop(40%, #639349));
+  background: -webkit-linear-gradient(bottom, #517a3a 40%, #639349 40%);
+  background: -o-linear-gradient(bottom, #517a3a 40%, #639349 40%);
+  background: linear-gradient(0deg, #517a3a 40%, #639349 40%); }
+
+.logo {
+  height: 100px;
+  width: 159px;
+  background-image: url(../img/logo3.png);
+  background-repeat: no-repeat;
+  background-size: 168px;
+  margin-left: 5%;
+  margin-bottom: 0.1%;
+  z-index: 9000; }
+
+.logo-mobile {
+  display: none; }
+
+.dws-menu {
+  position: relative;
+  margin: -9.2px 2px;
+  right: 22.4%; }
+
+ul.dws-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+li.dws-li {
+  list-style: none;
+  padding: 6px 8px;
+  border-radius: 2px; }
+
+li.dws-li a {
+  position: relative;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 12px;
+  color: #FCF3F3;
+  margin: 2px; }
+
+li.dws-li a:hover {
+  color: #FCF3F3; }
+
+li.dws-li:hover {
+  background-color: #639349; }
+
+.request {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  cursor: pointer;
+  height: 20px;
+  width: 120px;
+  top: 72%;
+  right: 6%;
+  border-radius: 4px;
+  background-color: #af2c22; }
+
+.request:hover {
+  background-color: #e82819;
+  -webkit-box-shadow: 0 3px 6px rgba(28, 15, 25, 0.9);
+  box-shadow: 0 3px 6px rgba(28, 15, 25, 0.9); }
+
+.request-text p {
+  position: relative;
+  margin-top: 3.5%;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #fff; }
+
+.request-icon i {
+  position: absolute;
+  margin-top: 1.2%;
+  margin-left: -1%;
+  font-size: 100%;
+  color: #fff; }
+
+.cosial-youtube {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  background-color: #fff;
+  top: 71%;
+  right: 2%;
+  border-radius: 4px; }
+
+.cosial-youtube i {
+  margin: -0.1px 3.5px;
+  margin-left: 3.8px;
+  font-size: 20px;
+  color: #af2c22; }
+
+.cosial-youtube:hover {
+  -webkit-box-shadow: 0 3px 6px rgba(28, 15, 25, 0.9);
+  box-shadow: 0 3px 6px rgba(28, 15, 25, 0.9); }
+
+.cosial-youtube i:hover {
+  color: #e82819; }
+
+#modal-request {
+  position: absolute;
+  width: 35%;
+  background-color: #fff;
+  top: 120%;
+  right: 32%;
+  display: none;
+  opacity: 0;
+  z-index: 9999; }
+
+.request-head {
+  width: 100%;
+  height: 115px;
+  background-color: #46382f; }
+
+.request_close {
+  position: absolute;
+  cursor: pointer;
+  margin: -45px 90%;
+  font-size: 125px;
+  color: #af2c22; }
+
+.phone-icon-modal i {
+  font-size: 25px;
+  margin: 2% 0 3%; }
+
+.request-head p {
+  margin: 2% 30% 3%;
+  color: #FDFDFD;
+  font-family: sans-serif,'Adellelight'; }
+
+#modal-request p {
+  font-size: 13px;
+  font-family: sans-serif,'Adellelight'; }
+
+.hr-line {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #D3AD87, #D3AD87, #D3AD87);
+  background-image: -o-linear-gradient(left, #D3AD87, #D3AD87, #D3AD87);
+  background-image: -webkit-gradient(linear, left top, right top, from(#D3AD87), color-stop(#D3AD87), to(#D3AD87));
+  background-image: linear-gradient(to right, #D3AD87, #D3AD87, #D3AD87); }
+
+.phone {
+  border: 1px solid #D3AD87;
+  text-indent: 0.25em;
+  width: 90%;
+  height: auto;
+  font-family: sans-serif;
+  border-radius: 5px; }
+
+#form .phone:hover {
+  border: 1px solid #D3AD87;
+  border-radius: 5px; }
+
+.popup p {
+  font-family: sans-serif;
+  color: #BCB2A7; }
+
+.text {
+  border: 1px solid #D3AD87;
+  text-indent: 0.5em;
+  margin-top: 10px;
+  width: 90%;
+  height: auto;
+  font-family: sans-serif;
+  line-height: 40px;
+  border-radius: 5px; }
+
+.text:active, .text:hover, .text:focus {
+  outline: 0;
+  outline-offset: 0; }
+
+.btn {
+  position: relative;
+  width: 60px;
+  height: 30px;
+  background: #af2c22;
+  margin-left: 78%;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 18px;
+  border-radius: 3px;
+  bottom: 9px; }
+
+.btn:hover {
+  background: #af2c22; }
+
+.touch {
+  width: 35px;
+  height: 25px;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 3px;
+  margin-right: 8px;
+  z-index: 500; }
+
+.touch-row {
+  width: 80%;
+  height: 4.5px;
+  background: #af2c22; }
+
+.touch-row:hover {
+  background-color: #e82819; }
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 220px;
+  background-color: #46382f; }
+
+.logo_footer {
+  height: 80px;
+  width: 80px;
+  padding: 8px 10px;
+  background-image: url(../img/years_30.png);
+  background-repeat: no-repeat;
+  background-size: 95%;
+  margin-left: 1.8%; }
+
+.inscription1 {
+  padding: 10px;
+  margin: 2px 5px; }
+
+.inscription1 p {
+  font-family: sans-serif, 'Adellelight';
+  color: #808080;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: justify; }
+
+.inscription1 p a {
+  font-family: sans-serif, 'Adellelight';
+  color: #808080;
+  font-weight: bold;
+  font-size: 14px; }
+
+.inscription2 {
+  padding: 10px;
+  margin: 2px 95px;
+  margin-right: 20%; }
+
+.inscription2 p {
+  font-family: sans-serif;
+  color: #808080;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 0 10px;
+  text-align: justify; }
+
+.inscription2 p a {
+  font-family: sans-serif, 'Adellelight';
+  color: #808080;
+  font-weight: bold;
+  font-size: 14px; }
+
+.line_down_footer {
+  display: none;
+  width: 80%; }
+
+@font-face {
+  src: url("../fonts/Western/They Killed Kenny.otf");
+  font-family: 'TheyKilledKenny'; }
+
+@font-face {
+  src: url("../fonts/Noto_Serif/NotoSerif-Bold.ttf");
+  font-family: 'NotoSerifBold'; }
+
+@font-face {
+  src: url("../fonts/Adelle/Adelle_light.otf");
+  font-family: 'Adellelight'; }
+
+* {
+  -webkit-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s; }
+
+* {
+  font-family: TheyKilledKenny; }
+
+a {
+  text-decoration: none;
+  margin: 0;
+  color: #fff; }
+
+.clear {
+  clear: both; }
+
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto; }
+
+.banner {
+  position: relative;
+  height: 222px;
+  width: 100%;
+  background-image: url(../img/banner1.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/*
+.slide {
+  display: flex;
+  position: absolute;
+  height: 100%;
+  width: 39.2%;
+  margin-left: 54.8%;
+  background-size: 100%;
+}
+
+.slide1 {
+  display: flex;
+  position: absolute;
+  height: 100%;
+  width: 39.2%;
+  margin-left: 54.8%;
+  background-color: rgba(1, 3, 7, 0.3);
+  background-size: 100%;
+}
+
+.slide p{
+  margin-top: 10%;
+  margin-left: 8%; 
+  margin-right: 8%;
+  font-size: 30px;
+  opacity: 0;
+  font-family: sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+.slide1 p{
+  margin-top: 10%;
+  margin-left: 5%; 
+  margin-right: 8%;
+  font-size: 28px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+
+button {
+  border: none;
+  background: none;
+  font-size: 60px;
+  outline: none;
+  color: #fff;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #222;
+}
+
+.prev {
+  z-index: 1;
+  position: relative;
+  right: 5%;
+}
+
+.next {
+  z-index: 1;
+  position: relative;
+  left: 1%;
+}
+
+.banner-page {
+  display: flex;
+  position: relative;
+  width: 30px;
+  height: 20px;
+  top: 85%;
+  left: 73.8%;
+  justify-content: center;
+  
+}
+
+.banner-page-squere1 {
+  height: 10px;
+  width: 15px;
+  margin: 8%;
+  background-color: #ffffff;
+  opacity: 1;
+}
+
+.banner-page-squere2 {
+  height: 10px;
+  width: 15px;
+  margin: 8%;
+  margin-left: 5%;
+  background-color: #ffffff;
+  opacity: 0.5;
+}
+
+*/
+@media (max-width: 1300px) {
+  .wrapper {
+    max-width: 1280px; }
+  li.dws-li a {
+    font-size: 10px; } }
+
+@media (max-width: 1200px) {
+  .wrapper {
+    max-width: 1180px; }
+  .logo {
+    height: 85px;
+    width: 125px;
+    background-size: 135px;
+    margin-left: 0.5%;
+    margin-bottom: 0.1%; }
+  .dws-menu {
+    right: 22%; }
+  .request {
+    height: 20px;
+    width: 90px;
+    right: 3.5%;
+    top: 73%; }
+  .request-text p {
+    margin-top: 5.2%;
+    font-size: 10px; }
+  .cosial-youtube {
+    top: 38.5%;
+    right: 3.5%; }
+  #modal-request {
+    width: 45%;
+    right: 26%; }
+  .request-head {
+    height: 85px; }
+  #modal-request p {
+    font-size: 10px; }
+  .request_close {
+    margin: -45px 89%;
+    font-size: 115px; }
+  .btn {
+    width: 50px;
+    height: 25px;
+    font-size: 15px;
+    margin-left: 80%; }
+  .banner {
+    height: 150px; }
+  footer {
+    height: 180px; }
+  .logo_footer {
+    margin-left: -0.8%; }
+  .inscription1 p {
+    font-size: 12px; }
+  .inscription2 p {
+    font-size: 12px; } }
+
+@media (max-width: 980px) {
+  .wrapper {
+    max-width: 960px; }
+  header {
+    height: 90px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  .logo {
+    height: 68px;
+    width: 120px;
+    background-size: 115px;
+    margin-left: 0; }
+  .dws-menu {
+    top: 8%;
+    right: 15.4%; }
+  li.dws-li a {
+    font-size: 8px; }
+  .request {
+    height: 18px;
+    width: 80px;
+    right: 4.5%;
+    top: 75%; }
+  .request-text p {
+    margin-top: 7.8%;
+    font-size: 8px; }
+  .cosial-youtube {
+    top: 33.5%;
+    right: 4.5%; }
+  #modal-request {
+    width: 45%;
+    right: 27%; }
+  #modal-request p {
+    font-size: 11px; }
+  .request_close {
+    margin: -45px 88%;
+    font-size: 115px; }
+  .btn {
+    width: 50px;
+    height: 25px;
+    font-size: 15px;
+    margin-left: 70%; }
+  .banner {
+    height: 80px; }
+  footer {
+    height: 150px; }
+  .inscription1 p {
+    font-size: 11px; }
+  .inscription2 p {
+    font-size: 11px; } }
+
+@media (max-width: 768px) {
+  .wrapper {
+    max-width: 750px; }
+  header {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start; }
+  .logo {
+    height: 80px;
+    width: 90px;
+    background-image: url(../img/RisingSun_logo.png);
+    background-repeat: no-repeat;
+    background-size: 85px; }
+  .dws-menu {
+    display: none; }
+  .request {
+    top: 75%;
+    right: 4.5%; }
+  #modal-request {
+    width: 65%;
+    right: 17%; }
+  .request-head {
+    height: 85px; }
+  #modal-request p {
+    font-size: 10px; }
+  .request_close {
+    margin: -45px 89%;
+    font-size: 115px; }
+  .btn {
+    width: 50px;
+    height: 25px;
+    font-size: 15px;
+    margin-left: 78%; }
+  .touch {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .gamburger-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  #touch-inp:checked ~ .dws-menu {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 350%;
+    position: absolute;
+    left: 0;
+    top: 92px;
+    z-index: 9999;
+    background-color: #517a3a;
+    text-align: center; }
+  .dws-ul li {
+    height: 35px; }
+  ul.dws-ul {
+    display: block; }
+  li.dws-li a {
+    font-size: 12px; }
+  .banner {
+    height: 65px; }
+  footer {
+    height: 150px; }
+  .inscription1 {
+    width: 250px;
+    height: 100px;
+    padding: 10px;
+    margin: 0 0; }
+  .inscription1 p {
+    font-size: 10px; }
+  .inscription2 {
+    width: 250px;
+    padding: 10px;
+    margin: 0 0;
+    margin-right: 5%; }
+  .inscription2 p {
+    font-size: 10px; } }
+
+@media (max-width: 678px) {
+  .wrapper {
+    max-width: 660px; }
+  #modal-request {
+    width: 75%;
+    right: 12%; }
+  .request-head {
+    height: 85px; }
+  #modal-request p {
+    font-size: 10px; }
+  .request_close {
+    margin: -45px 89%;
+    font-size: 115px; }
+  .btn {
+    width: 50px;
+    height: 25px;
+    font-size: 15px;
+    margin-left: 78%; } }
+
+@media (max-width: 578px) {
+  .wrapper {
+    max-width: 560px; }
+  .logo_footer {
+    height: 80px;
+    width: 80px;
+    padding: 0 10px; }
+  .inscription1 {
+    width: 250px;
+    height: 100px;
+    padding: 10px;
+    margin: 0 0; }
+  .inscription1 p {
+    font-size: 10px; }
+  .inscription2 {
+    width: 250px;
+    padding: 10px;
+    margin: 0 0;
+    margin-right: -2%; } }
+
+@media (max-width: 480px) {
+  .wrapper {
+    max-width: 450px; }
+  .logo {
+    height: 80px;
+    width: 85px;
+    background-image: url(../img/RisingSun_logo.png);
+    background-repeat: no-repeat;
+    background-size: 85px; }
+  .cosial-youtube {
+    top: 38.5%;
+    right: 1.5%; }
+  #modal-request {
+    width: 90%;
+    right: 5%; }
+  .request-head {
+    height: 85px; }
+  #modal-request p {
+    font-size: 10px; }
+  .request_close {
+    margin: -45px 84%;
+    font-size: 115px; }
+  .btn {
+    width: 50px;
+    height: 25px;
+    font-size: 15px;
+    margin-left: 74%; }
+  .banner {
+    display: none; }
+  footer {
+    display: block;
+    height: 355px;
+    text-align: center; }
+  .logo_footer {
+    width: 100%;
+    height: 60px;
+    background-size: 15%;
+    padding: 2px 0 0;
+    margin: 0 0 2px 43%; }
+  .inscription1 {
+    width: 100%;
+    height: 25px;
+    padding: 2px 0 75px; }
+  .inscription1 p {
+    font-size: 10px; }
+  .inscription2 {
+    padding: 2px;
+    width: 100%;
+    padding: 2px 0 75px; }
+  .inscription2 p {
+    font-size: 10px; } }
+
+@media (max-width: 320px) {
+  .wrapper {
+    max-width: 300px; }
+  .logo {
+    background-size: 85px;
+    margin-bottom: -7%; }
+  .cosial-youtube {
+    top: 38.5%;
+    right: 1.5%; }
+  .content-foto-phone p {
+    font-size: 12px; } }

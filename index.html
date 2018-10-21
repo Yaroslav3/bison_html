@@ -1,0 +1,328 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<title>PRISTINE BISON LTD</title>
+		<meta charset="UTF-8">
+		<link  rel="shortcut icon" href="img/logo-icon.png"  type="image/png">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+			
+
+		<div class="wrapper">
+		
+		<header>
+			<input class="burger" type="checkbox" id="touch-inp" hidden>
+	        	<label class="touch" for="touch-inp">
+	        		<!--<span class="touch-row"></span>
+	        		<span class="touch-row"></span>
+	        		<span class="touch-row"></span>-->
+	        	<div class="menu-mobile">
+	        		<p>MENU</p>
+	        	</div>
+	        	</label>
+			<div class="logo"></div>
+			<div class="logo-mobile"></div>
+
+
+		
+			<!-- BURGER -->
+			<nav class="dws-menu">
+				<ul class="dws-ul">
+					<li class="dws-li"><a href="/">HOME</a></li>
+					<li class="dws-li"><a href="replacement_females.html">REPLACEMENT FEMALES</a></li>
+					<li class="dws-li"><a href="feeder_females.html">FEEDER FEMALES</a></li>
+					<li class="dws-li"><a href="replacement_bulls.html">REPLACEMENT BULLS</a></li>
+					<li class="dws-li"><a href="feeder_bulls.html">FEEDER BULLS</a></li>
+					<li class="dws-li"><a href="about_us.html">ABOUT US</a></li>
+				</ul>
+			</nav>
+			<div class="home">
+				<a href="/"><p>HOME</p></a>
+			</div>
+			
+				<div class="request" onclick='show_request();'>
+				<a class="request-text"><p><i class="fas fa-phone-square"></i> Request a call</p>
+				</a>
+			</div>
+			<div class="cosial-youtube">
+				<a href="https://www.youtube.com/channel/UC2-SYPBUxG7BG-oX1hlfpnQ?view_as=subscriber"><i class="fab fa-youtube"></i></a>
+			</div>
+
+			<div id="modal-request">
+				<span class="request_close" id="close_request">&times;</span>
+				<center>	
+					<div class="request-head">
+						<a class="phone-icon-modal"><i class="fas fa-phone-volume"></i></a>
+						<p>Request a call</p>
+					</div>
+					<p>Leave your contact details and get a free call back</p>
+					<hr class="hr-line">
+					<div class="messages"></div>
+					<div id="container"></div>
+					<br/>
+					<div id="ok"></div>
+					<form id="form" >
+						<input class="phone"  id="phone" type="text" name="phone" placeholder=" Your phone number...">
+						</br>
+						<input class="text" id="description" type="text" name="description" placeholder="Your name....">
+						</br>
+						<input class="text" id="timeCallBack" type="text" name="timeCallBack" placeholder="Time and day to call back....">
+						</br>
+						</br>
+						<button type="submit"  id="saveRCall" class="btn" value="Send"><p>Send</p></button>
+					</form>
+				</center>
+			</div>
+		</header>
+
+
+		<main>
+			<div class="transparent-line"></div>
+
+
+			
+	<!-- BANNER AND SLIDER -->
+			<div class="banner" id="banner_photo">
+				<div class="slide1">
+					<button class="next"><i class="fas fa-chevron-circle-left"></i></button>
+					<p id="slide1"></p>
+					<button class="prev"><i class="fas fa-chevron-circle-right"></i></button>
+				</div>
+				<div class="slide">
+					<p id="slide2"></p>
+				</div>
+					<div class="banner-page">
+						<div class="banner-page-squere1"></div>
+						<div class="banner-page-squere2"></div>
+					</div>
+			</div>
+
+	<!-- MAIN CONTENT -->
+			<div class="text-up-mobile">
+				<h1 id="text0-mob"></h1>
+			</div>
+			<div class="main-content" id="main-photo">
+			<h1 id="text0"></h1>
+				<hr class="line-up">
+				<div class="content-line">
+					<div class="content-foto">
+						<a href="replacement_females.html">
+							<div class="content-text-top-left">
+								<p>Replacement females</p>
+							</div>
+						</a>
+						<a href="replacement_females.html">
+							<img src="" id="myImg0">
+						</a>
+					</div>
+					<div class="content-foto">
+						<a href="replacement_bulls.html">
+							<div class="content-text-top-right">
+								<p>Replacement bulls</p>
+							</div>
+						</a>
+						<a href="replacement_bulls.html">
+							<img src="" id="myImg1">
+						</a>
+					</div>
+				</div>
+			<!--<div class="hr-right">
+						<hr>
+					</div>-->
+				<div class="play-button">
+					
+					<div class="white-circle">
+					</div>
+					<div class="button-video img_video" onclick='show_video();'>
+						<p>VIDEO</p>
+					</div>
+					<!--<div class="hr-right">
+						<hr>
+					</div>-->
+				</div>
+
+				<div class="content-line">
+					<div class="content-foto">
+						<a href="feeder_females.html">
+							<div class="content-text-bottom-left">
+								<p>Feeder females</p>
+							</div>
+						</a>
+						<a href="feeder_females.html">
+							<img src="" id="myImg2">
+						</a>
+					</div>
+					<div class="content-foto">
+						<a href="feeder_bulls.html">
+							<div class="content-text-bottom-right">
+								<p>Feeder bulls</p>
+							</div>
+						</a>
+						<a href="feeder_bulls.html">
+							<img src="" id="myImg3">
+						</a>
+					</div>
+				</div>
+					<hr class="line_down">
+					<h2 id="text1"><h2>
+				</div>
+
+			
+	<!-- MODAL WINDOW PHOTO -->
+			<!--<div id="modal-photo">
+				<span class="photo_close">&times;</span>
+				<center>
+					<img class="modal-photo" src="img/test1.jpeg">
+				</center>
+			</div>
+
+			<div id="modal-photo-two">
+				<span class="photo_close">&times;</span>
+				<center>
+					<img class="modal-photo" src="img/test2.jpg">
+				</center>
+			</div>
+
+			<div id="modal-photo-three">
+				<span class="photo_close">&times;</span>
+				<center>
+					<img class="modal-photo" src="img/test3.jpg">
+				</center>
+			</div>
+
+			<div id="modal-photo-four">
+				<span class="photo_close">&times;</span>
+				<center>
+					<img class="modal-photo" src="img/test4.jpg">
+				</center>
+			</div>-->
+			
+		
+	
+<!-- YOUTUBE VIDEO -->
+		<div id="modal_form">
+     		 <span class="modal_close">&times;</span> 
+			<center>
+				<iframe src="" id="frame0" frameborder="0"  allowfullscreen ></iframe>
+			</center>
+		</div>
+		<div id="overlay"></div>
+
+
+	<!-- MOBILE VERSION -->
+			<div class="main-content-phone">
+				<div class="content-line-phone">
+					<div class="content-foto-phone">
+						<a href="replacement_females.html">
+							<div class="btn-mobile content-text-phone">
+									<p>Replacement females</p>
+							</div>
+						</a>
+						<a href="replacement_females.html">
+						<div class="photo-mobile">
+							<img src=" " id="myImgMob0">
+						</div>
+						</a>
+					</div>
+					<div class=" content-foto-phone">
+						<a href="replacement_bulls.html">
+							<div class=" btn-mobile content-text-phone">
+									<p>Replacement bulls</p>
+							</div>
+						</a>
+						<a href="replacement_bulls.html">
+						<div class="photo-mobile">
+							<img src=" " id="myImgMob1">
+						</div>
+						</a>
+					</div>
+				</div>
+				<div class="content-line-phone">
+					<div class="content-foto-phone">
+						<a href="feeder_females.html">
+							<div class="btn-mobile content-text-phone">
+									<p>Feeder females</p>
+							</div>
+						</a>
+						<a href="feeder_females.html">
+						<div class="photo-mobile">
+							<img src=" "id="myImgMob2">
+						</div>
+						</a>
+					</div>
+					<div class="content-foto-phone down-block">
+						<a href="feeder_bulls.html">
+							<div class="btn-mobile content-text-phone">
+									<p>Feeder bulls</p>
+							</div>
+						</a>
+						<a href="feeder_bulls.html">
+						<div class="photo-mobile">
+							<img src=" " id="myImgMob3">
+						</div>
+						</a>
+					</div>
+						<a href="about_us.html">
+							<div class="content-about_us content-text-phone">
+									<p>ABOUT US </p>
+							</div>
+						</a>
+					</div>
+			</div>
+				<div class="text-down-mobile">
+					<h2 id="text1-mob"></h2>
+				</div>
+				
+			<div class="clear"></div>	
+			
+		</main>
+
+
+		
+		<footer>
+			<div class="logo_footer"></div>
+
+			<div class="inscription1">
+				<div class="max">
+					<p id="contact-name0"></p>
+				</div>
+				<p id="contact-phone0"> <i class="fa fa-phone-square" aria-hidden="true"></i> </p>
+				<p id="contact-email0"><i class="far fa-envelope"></i> </p>
+				<p id="contact-address0"> <i class="fas fa-map-marker-alt"></i> </p>
+				<hr class="line_down_footer">
+
+			</div>
+
+
+			<div class="inscription2">
+				<div class="cudtomers">
+					<p id="contact-name1"></p>
+				</div>
+				<p> Europian contact</p>
+				<p id="contact-email1"><i class="far fa-envelope"></i> </p>
+				<p id="contact-address1"> <i class="fas fa-map-marker-alt"></i> </p>
+			</div>
+			<div class="logo_footer_mobile">
+				<img src=" " id="mobile-img">
+			</div>
+		</footer>
+
+		</div>
+
+
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<script src="js/header.js"></script>
+		<script src="js/modal-video.js"></script>
+		<!--<script src="js/modal-photo.js"></script>-->
+		<script src="js/slider.js"></script>
+		<script src="js/request.js"></script>
+		<script src="js/rest-respons.js"></script>
+	</body>
+	</html>
+
